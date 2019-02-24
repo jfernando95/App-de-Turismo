@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mapsLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSatelitalC"
+            android:layout_width="wrap_content"
+            android:textSize="16px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Satelital" />
+
+        <Button
+            android:id="@+id/btnRelieveC"
+            android:textSize="16px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Relieve" />
+
+        <Button
+            android:id="@+id/btnHibridoC"
+            android:textSize="16px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Hibrido" />
+
+        <Button
+            android:id="@+id/btnNormalC"
+            android:textSize="16px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Normal" />
+
+        <Button
+            android:id="@+id/btnDesconocidoC"
+            android:textSize="14px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Desconocido" />
+    </LinearLayout>
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MapsActivity" />
+
+
+</LinearLayout>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/fondo"
+    tools:openDrawer="start">
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/btnHome"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:background="@drawable/home"/>
+
+
+
+            <TextView
+                android:id="@+id/lblClima"
+                style="@style/SemiBold"
+                android:layout_marginTop="@dimen/space8"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:text="20 de agosto"
+                android:textColor="@color/colorPink"
+                android:textSize="@dimen/h3" />
+
+
+            <ImageView
+                android:id="@+id/btnSagrarios"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/space16"
+                android:layout_height="200dp"
+                android:src="@drawable/romeria"
+                tools:layout_editor_absoluteX="50dp"
+                tools:layout_editor_absoluteY="29dp" />
+
+
+
+            <TextView
+                android:id="@+id/lblclima"
+                style="@style/SemiBold"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/fab_margin"
+                android:gravity="center_horizontal"
+                android:text="Peregrinacion de la Virgen de El Cisne (Cisne-Loja)"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorTextDark"
+                android:textSize="@dimen/h3" />
+
+
+
+
+            <TextView
+                android:id="@+id/lblClima"
+                style="@style/SemiBold"
+                android:layout_marginTop="@dimen/space8"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:text="1 de septiembre"
+                android:textColor="@color/colorPink"
+                android:textSize="@dimen/h3" />
+
+
+
+            <ImageView
+                android:id="@+id/btnSagrarios"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/space16"
+                android:layout_height="200dp"
+                android:src="@drawable/ferialoja"
+                tools:layout_editor_absoluteX="50dp"
+                tools:layout_editor_absoluteY="29dp" />
+
+
+
+            <TextView
+                android:id="@+id/lblclima"
+                style="@style/SemiBold"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_margin="@dimen/fab_margin"
+                android:gravity="center_horizontal"
+                android:text="Noches de Feria"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorTextDark"
+                android:textSize="@dimen/h3" />
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/lblClima"
+                style="@style/SemiBold"
+                android:layout_marginTop="@dimen/space8"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:text="1 de noviembre"
+                android:textColor="@color/colorPink"
+                android:textSize="@dimen/h3" />
+
+
+            <ImageView
+                android:id="@+id/btnSagrarios"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="@dimen/space16"
+                android:src="@drawable/retorno"
+                tools:layout_editor_absoluteX="50dp"
+                tools:layout_editor_absoluteY="29dp" />
+
+
+
+
+            <TextView
+                android:id="@+id/lblclima"
+                style="@style/SemiBold"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_margin="@dimen/fab_margin"
+                android:gravity="center_horizontal"
+                android:text="Retorno de la Virgen de El Cisne a su Santuario
+"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorTextDark"
+                android:textSize="@dimen/h3" />
+
+
+
+
+            <TextView
+                android:id="@+id/lblClima"
+                style="@style/SemiBold"
+                android:layout_marginTop="@dimen/space8"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:text="8 de noviembre"
+                android:textColor="@color/colorPink"
+                android:textSize="@dimen/h3" />
+
+
+            <ImageView
+                android:id="@+id/btnSagrarios"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/space16"
+                android:layout_height="200dp"
+                android:src="@drawable/desfilecultural"
+                tools:layout_editor_absoluteX="50dp"
+                tools:layout_editor_absoluteY="29dp" />
+
+
+
+            <TextView
+                android:id="@+id/lblclima"
+                style="@style/SemiBold"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/fab_margin"
+                android:gravity="center_horizontal"
+                android:text="Desfile cultural “Todos los pueblos todas las artes, dedicado a la diversidad cultural”
+"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorTextDark"
+                android:textSize="@dimen/h3" />
+
+
+
+            <TextView
+                android:id="@+id/lblClima"
+                style="@style/SemiBold"
+                android:layout_marginTop="@dimen/space8"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:text="17 de noviembre"
+                android:textColor="@color/colorPink"
+                android:textSize="@dimen/h3" />
+
+
+            <ImageView
+                android:id="@+id/btnSagrarios"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="@dimen/space16"
+                android:src="@drawable/desfilepublica"
+                tools:layout_editor_absoluteX="50dp"
+                tools:layout_editor_absoluteY="29dp" />
+
+
+
+            <TextView
+                android:id="@+id/lblclima"
+                style="@style/SemiBold"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_margin="@dimen/fab_margin"
+                android:gravity="center_horizontal"
+                android:text="Desfile de la fuerza pública
+"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorTextDark"
+                android:textSize="@dimen/h3" />
+
+
+            <TextView
+                android:id="@+id/lblClima"
+                style="@style/SemiBold"
+                android:layout_marginTop="@dimen/space8"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:text="18 de noviembre"
+                android:textColor="@color/colorPink"
+                android:textSize="@dimen/h3" />
+
+
+            <ImageView
+                android:id="@+id/btnSagrarios"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/space16"
+                android:layout_height="200dp"
+                android:src="@drawable/desfileestudiantil"
+                tools:layout_editor_absoluteX="50dp"
+                tools:layout_editor_absoluteY="29dp" />
+
+
+
+
+            <TextView
+                android:id="@+id/lblclima"
+                style="@style/SemiBold"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_margin="@dimen/fab_margin"
+                android:gravity="center_horizontal"
+                android:text="Desfile cívico estudiantil"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorTextDark"
+                android:textSize="@dimen/h3" />
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

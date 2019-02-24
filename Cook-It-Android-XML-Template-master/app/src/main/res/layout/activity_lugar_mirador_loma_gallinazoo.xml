@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:background="@drawable/home"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/txtnombrerutaMLoma"
+                style="@style/SemiBold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text=" "
+                android:textAlignment="center"
+                android:textColor="@color/colorTextDark"
+                android:textSize="@dimen/h3" />
+
+
+            <ImageView
+                android:id="@+id/btnRutaMLoma"
+                android:layout_width="match_parent"
+                android:layout_height="102dp"
+                android:src="@drawable/miradorlomadegallinazo"
+                tools:layout_editor_absoluteX="42dp"
+                tools:layout_editor_absoluteY="29dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/editText5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Ubicación" />
+
+                <TextView
+                    android:id="@+id/tttUbicacionMLoma"
+                    style="@style/SemiBold"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text=" " />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/editText6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Descripción"
+                    android:textAlignment="center"/>
+                <TextView
+                    android:id="@+id/lblDescripcionMLoma"
+                    style="@style/SemiBold"
+                    android:textAlignment="viewStart"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:text=" " />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/editText7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Actividad Turística" />
+
+            <TextView
+                android:id="@+id/tttActividadTuristMLoma"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                style="@style/SemiBold"
+                android:textAlignment="viewStart"
+                android:text=" " />
+            <TextView
+                android:id="@+id/editText8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Recomendaciones" />
+
+            <TextView
+                android:id="@+id/tttRecomendacionesMLoma"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                style="@style/SemiBold"
+                android:textAlignment="viewStart"
+                android:text=" " />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/editText3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Latitud" />
+
+                <TextView
+                    android:id="@+id/tttLatitudMLoma"
+                    android:layout_width="match_parent"
+                    android:layout_height="29dp"
+                    style="@style/SemiBold"
+                    android:textAlignment="viewStart"
+                    android:text=" " />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/editText4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Longitud" />
+
+                <TextView
+                    android:id="@+id/tttLongitudMLoma"
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    style="@style/SemiBold"
+                    android:textAlignment="viewStart"
+                    android:text=" " />
+            </LinearLayout>
+            <RatingBar
+                android:id="@+id/ratingBar"
+                style="@style/RatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:isIndicator="true"
+                android:numStars="5"
+                android:rating="3.5"
+                android:textAlignment="center" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

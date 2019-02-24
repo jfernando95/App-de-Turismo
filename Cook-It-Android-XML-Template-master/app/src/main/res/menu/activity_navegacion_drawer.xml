@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Parroquias"
+            android:icon="@drawable/parq"
+            android:title="Parroquias" />
+
+        <item
+            android:id="@+id/Eventos"
+            android:icon="@drawable/cale"
+            android:title="Eventos" />
+        <item
+            android:id="@+id/RutasComp"
+            android:icon="@drawable/rutas"
+            android:title="Rutas Complementarias" />
+        <!--<item
+            android:id="@+id/Videos"
+            android:icon="@drawable/video"
+            android:title="Videos" />-->
+
+
+
+    </group>
+
+    <item android:title="Comunicate">
+        <menu>
+            <item
+                android:id="@+id/enviarcorreo"
+
+                android:icon="@drawable/facebook"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:title="Comparte tu Experiencia"></item>
+
+
+        </menu>
+
+    </item>
+    <item android:title="Autora:"/>
+    <item android:title="Fernanda Erraes Cevallos" />
+    <item android:title="fercita280496@gmail.com"/>
+</menu>
+

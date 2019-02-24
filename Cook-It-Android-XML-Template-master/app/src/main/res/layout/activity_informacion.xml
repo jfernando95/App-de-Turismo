@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/fondo"
+    tools:openDrawer="start">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/btnHome"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:background="@drawable/home"
+                />
+
+
+
+
+            <ImageView
+                android:id="@+id/btnSagrarios"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/space16"
+                android:layout_height="200dp"
+                android:src="@drawable/clima"
+                tools:layout_editor_absoluteX="50dp"
+                tools:layout_editor_absoluteY="29dp" />
+
+            <TextView
+                android:id="@+id/lblClima"
+                style="@style/SemiBold"
+                android:layout_marginTop="@dimen/space8"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:text="CLIMA"
+                android:textColor="@color/colorPink"
+                android:textSize="@dimen/h3" />
+
+
+            <TextView
+                android:id="@+id/lblclima"
+                style="@style/SemiBold"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:gravity="center_horizontal"
+                android:text="De septiembre a abril se presentan las temperaturas más altas, el mes más caluroso del año con un promedio que no baja de 25.2 °C es noviembre y las máximas temperaturas absolutas del año se dan generalmente en noviembre y en la primera o segunda semana del mes de diciembre, así mismo los meses mas cálidos del año en cuanto a temperaturas absolutas son octubre, noviembre, diciembre y enero
+    \n
+    \n
+    Altitud: 4msnm. "
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorTextDark"
+                android:textSize="@dimen/h3" />
+
+
+
+
+
+
+
+            <ImageView
+                android:id="@+id/btnSagrarios"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/space8"
+                android:layout_height="200dp"
+                android:src="@drawable/modena"
+                tools:layout_editor_absoluteX="50dp"
+                tools:layout_editor_absoluteY="29dp" />
+
+            <TextView
+                android:id="@+id/lblClima"
+                style="@style/SemiBold"
+                android:layout_marginTop="@dimen/space8"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:text="MONEDA"
+                android:textColor="@color/colorPink"
+                android:textSize="@dimen/h3" />
+
+
+            <TextView
+                android:id="@+id/lblDescripcion"
+                style="@style/SemiBold"
+                android:layout_width="match_parent"
+                android:layout_height="340dp"
+                android:gravity="center_horizontal"
+                android:text="El dólar americano es la moneda de uso a nivel nacional. Los billetes son los mismos que se utilizan a nivel mundial, sin embargo podrá encontrarse con monedas acuñadas dentro del país. Los Euros u otras monedas deben ser convertidas, al cambio del día.
+\n
+\n
+Cambio de Divisas:
+Es posible cambiar euros y otras monedas extranjeras en casas de cambio autorizadas, hoteles y bancos. No se recomienda hacer cambios de moneda en las calles.
+\n
+\n
+Cajeros Automáticos:
+Se pueden encontrar con mucha facilidad en toda la ciudad y se aceptan diversos tipos de tarjetas.
+\n
+\n
+Tarjetas de Crédito:
+Las de mayor aceptación son Visa, Mastercard, American Express y Diners Club."
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorTextDark"
+                android:textSize="@dimen/h3" />
+
+
+            <ImageView
+                android:id="@+id/btnSagrarios"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/seguridad"
+                android:layout_marginTop="@dimen/space8"
+                tools:layout_editor_absoluteX="50dp"
+                tools:layout_editor_absoluteY="29dp" />
+
+            <TextView
+                style="@style/SemiBold"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:text="SEGURIDAD"
+                android:textColor="@color/colorPink"
+                android:textSize="@dimen/h3" />
+
+
+            <TextView
+                android:id="@+id/lblDescripcion"
+                android:layout_marginTop="@dimen/space8"
+                style="@style/SemiBold"
+                android:layout_width="match_parent"
+                android:layout_height="550dp"
+
+                android:gravity="center_horizontal"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorTextDark"
+                android:text="1. Servicio Integrado de Seguridad ECU 911
+\n
+\n
+El Servicio Integrado de Seguridad Ecu 911 es un servicio de respuesta inmediata e integral a emergencias, accidentes y desastres, que combina los esfuerzos de varios organismos locales como la Policía Nacional, las Fuerzas Armadas, el Cuerpo de Bomberos, la Comisión Nacional de Tránsito, la Cruz Roja Ecuatoriana, entre otros.
+
+El ECU 911 cuenta con una plataforma tecnológica que brinda servicios de videovigilancia, botones de auxilio, alarmas comunitarias, recepción y despachos de atención a emergencias a través de un solo número de asistencia: el 911.
+
+En caso de emergencia puede llamar al 911 desde cualquier teléfono fijo o móvil, sin costo alguno, las 24 horas del día, los 365 días del año.
+
+\n
+\n
+2. Policía Nacional
+\n
+\n
+La Policía Nacional es una Institución de Carácter Civil, Armada, Técnica, Jerarquizada, Disciplinada, Profesional y Altamente Especializada cuya misión es atender la seguridad ciudadana y el orden público, proteger el libre ejercicio de los derechos y la seguridad de las personas dentro del territorio nacional.
+
+Sus miembros operan las 24 horas del día se encargan de la prevención e investigación de delitos, la aprehensión de los delincuentes, control del transporte terrestre y el movimiento migratorio del país."
+                android:textSize="@dimen/h3" />
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

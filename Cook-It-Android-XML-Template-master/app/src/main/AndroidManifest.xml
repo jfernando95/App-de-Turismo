@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.uiresource.cookit">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.example.mapdemo.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Splash"
+            android:theme="@style/Full">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Detail"
+            android:theme="@style/Full"
+            android:windowSoftInputMode="adjustPan">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main" />
+        </activity>
+        <activity
+            android:name=".Parroquias"
+            android:parentActivityName=".Navegacion" />
+        <activity android:name=".Sitio" />
+        <activity android:name=".Lugar" />
+        <activity android:name=".Eventos" />
+        <activity android:name=".Lista_Lugares" />
+        <activity android:name=".Planificacion" />
+        <activity android:name=".Multimedia" />
+        <activity
+            android:name=".Navegacion"
+            android:label="@string/title_activity_navegacion"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Lista_Rutas" />
+        <activity android:name=".Ruta" />
+        <activity android:name=".ListaMultimedia" />
+        <activity android:name=".Imagenes" />
+        <activity android:name=".Videos" />
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".CargaMapa" />
+        <activity android:name=".rutaMiradorTunduranga" />
+        <activity android:name=".rutaAlfareriaBarrioCera" />
+        <activity
+            android:name=".MapsActivityAlfareriaBarrioCera"
+            android:label="@string/title_activity_maps_alfareria_barrio_cera" />
+        <activity android:name=".lugarAlfareriaBarrioCera" />
+        <activity android:name=".rutaChorreradeShillipara" />
+        <activity
+            android:name=".MapsActivityChorreradeSillipara"
+            android:label="@string/title_activity_maps_chorrerade_sillipara" />
+        <activity android:name=".lugarIglesiaChantaco" />
+        <activity android:name=".ListaLugaresChantaco" />
+        <activity android:name=".VistaVirtual.Catedral" />
+        <activity android:name=".VistaVirtual.Lista_Virtual" />
+        <activity android:name=".VistaVirtual.PuertaCiudad" />
+        <activity android:name=".ListaLugaresChuquiribamba" />
+        <activity android:name=".lugarCentrodeInterpretacionTuristica" />
+        <activity
+            android:name=".MapsActivityCentrodeInterpretacionTuristica"
+            android:label="@string/title_activity_maps_centrode_interpretacion_turistica" />
+        <activity android:name=".rutaCentrodeInterpretacionTuristica" />
+        <activity
+            android:name=".MapsActivityruta"
+            android:label="@string/title_activity_maps_activityruta" />
+        <activity android:name=".rutaMTLomadeGallinazo" />
+        <activity android:name=".rutaCascadaSanFrancisco" />
+        <activity android:name=".rutaCascadaHumuto" />
+        <activity android:name=".rutaSantuarioElCisne" />
+        <activity android:name=".ListaLugaresGualel" />
+        <activity android:name=".lugarCascadaSanFrancisco" />
+        <activity android:name=".lugarCascadaHumuto" />
+        <activity android:name=".ListaLugaresElCisne" />
+        <activity android:name=".lugarSantuarioElCisne" />
+        <activity android:name=".Mapa" />
+        <activity
+            android:name=".ActividadMapaPrincipal"
+            android:label="@string/title_activity_actividad_mapa_principal" />
+        <activity android:name=".lugarMiradorLomaGallinazoo" />
+        <activity
+            android:name=".ActividadMapaPrincipalGualelCisne"
+            android:label="@string/title_activity_actividad_mapa_principal_gualel_cisne" />
+        <activity android:name=".Informacion" />
+        <activity android:name=".FiestasyFerias" />
+        <activity android:name=".ListaPlanes" />
+        <activity android:name=".Gastronomia" />
+        <activity android:name=".Transporte" />
+        <activity android:name=".AgenciasdeViajes" />
+        <activity android:name=".Alojamiento" />
+        <activity
+            android:name=".ActividadMapaPrincipalTaquil"
+            android:label="@string/title_activity_actividad_mapa_principal_taquil" />
+        <activity
+            android:name=".RutasEnlazadas"
+            android:label="@string/title_activity_rutas_enlazadas" />
+        <activity
+            android:name=".Rutas"
+            android:label="@string/title_activity_rutas" />
+        <activity android:name=".Calendario.Calendario" />
+        <activity android:name=".RutasComplementarias" />
+        <activity
+            android:name=".MapaRCUno"
+            android:label="@string/title_activity_mapa_rcuno" />
+        <activity
+            android:name=".MapaRCDos"
+            android:label="@string/title_activity_mapa_rcdos" />
+        <activity android:name=".DetalleTuristico"></activity>
+    </application>
+
+</manifest>

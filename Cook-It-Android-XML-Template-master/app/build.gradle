@@ -1,0 +1,51 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion '28.0.3'
+    defaultConfig {
+        applicationId "com.uiresource.cookit"
+        minSdkVersion 16
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+    }
+    buildTypes {
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.volley:volley:1.1.1'
+    implementation 'com.google.android.gms:play-services-maps:16.0.0'
+    implementation 'com.google.android.gms:play-services-location:11.8.0'
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation 'com.android.support:appcompat-v7:24.2.1'
+    implementation 'com.android.support:design:24.2.1'
+    implementation 'uk.co.chrisjenx:calligraphy:2.2.0'
+    implementation 'com.android.support:support-v4:24.2.1'
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+    implementation 'com.android.support:recyclerview-v7:24.2.1'
+    implementation 'com.android.support:cardview-v7:24.2.1'
+    implementation 'de.hdodenhof:circleimageview:3.0.0'
+    implementation 'sun.bob:mcalendarview:1.0.0'
+    implementation 'com.google.android.gms:play-services-maps:15.0.1'
+    implementation 'com.google.maps.android:android-maps-utils:0.5+'
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.google.android.gms:play-services-maps:16.0.0'
+    implementation 'com.gjiazhe:PanoramaImageView:1.0'
+
+}

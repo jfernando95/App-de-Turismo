@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/fondo"
+    tools:openDrawer="start">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/btnHome"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:background="@drawable/home"
+                />
+
+
+
+
+            <ImageView
+                android:id="@+id/btnSagrarios"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/space16"
+                android:layout_height="200dp"
+                android:src="@drawable/transporte"
+                tools:layout_editor_absoluteX="50dp"
+                tools:layout_editor_absoluteY="29dp" />
+
+
+            <TextView
+                android:id="@+id/lblclima"
+                style="@style/SemiBold"
+                android:layout_marginTop="@dimen/space16"
+                android:layout_width="match_parent"
+                android:layout_height="920dp"
+                android:gravity="center_horizontal"
+                android:text="Logros
+                \n
+Se logró desarrollar tecnologías que permiten el monitoreo satelital de las unidades del transporte público, con ello se puede chequear los tiempos de recorrido, cumplimiento de rutas y se evita que compitan entre sí.
+
+Se puso el sistema integrado de recaudo que consiste en la ejecución de validadores de acceso para el uso de tarjeta electrónica. En la actualidad, las 98 unidades que hacen uso de la Ruta Troncal, tienen instalados estos dispositivos.
+
+\n
+\n
+Capacitación
+
+\n
+La Municipalidad lleva adelante el proceso de capacitación con el proyecto Pequeño Ciudadano que va a los centros educativos y, entre otras cosas, se difunde la alternativa de pago mediante la tarjeta electrónica.
+\n
+\n
+Infraestructura
+
+\n
+En lo que respecta a la parte física se mejoró la infraestructura como ventanales, cubiertas, pisos, se colocó las puertas automáticas de acceso hacia las unidades y en el tema de seguridad, se puso el sistema de video vigilancia con cámaras que son monitoreadas a lo interno de las unidades como en las paradas mediante el ECU 911 y Parada Segura que lo maneja la Agencia Nacional de Tránsito.
+
+También se implementó el sistema de información al usuario.  Para ello se descarga la aplicación móvil SITU que indica las paradas y recorridos que se deben hacer hasta llegar al destino deseado.
+
+Todos estos sistemas están en proceso de desarrollo continuo para mejorar la prestación de servicios. “Todavía nos toca mucho por hacer, estamos en ese camino”, indica Wilson Jaramillo.
+\n
+\n
+Estación de transferencia
+
+\n
+La estación de transferencia que está en la Av. Manuel Agustín y Mercadillo, más conocido como la parada El León, se implementó la integración tarifaria, donde los barrios occidentales que se movilizan en las líneas 8 y 11, pueden hacer el cambio de los autobuses para ir a sus lugares con el mismo pasaje.
+
+La Unidad de Transporte analiza otras paradas de transferencia para integrarlas y en un futuro se estima tener un solo sistema de pago para la movilidad de las 13 parroquias rurales.
+
+En cifras se puede decir que el SITU se implementó en un 80%, falta implementar las otras líneas urbanas. "
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorTextDark"
+                android:textSize="@dimen/h3" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

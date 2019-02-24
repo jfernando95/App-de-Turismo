@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/fondo"
+    tools:openDrawer="start">
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/btnHome"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:background="@drawable/home" />
+
+
+            <TextView
+                android:id="@+id/lblClima"
+                style="@style/SemiBold"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="@dimen/space8"
+                android:gravity="center_horizontal"
+                android:text="REPE"
+                android:textColor="@color/colorPink"
+                android:textSize="@dimen/h3" />
+
+
+            <ImageView
+                android:id="@+id/btnSagrarios"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="@dimen/space16"
+                android:src="@drawable/repe"
+                tools:layout_editor_absoluteX="50dp"
+                tools:layout_editor_absoluteY="29dp" />
+
+
+            <TextView
+                android:id="@+id/lblClima"
+                style="@style/SemiBold"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="@dimen/space8"
+                android:gravity="center_horizontal"
+                android:text="CECINA DE CHANCHO"
+                android:textColor="@color/colorPink"
+                android:textSize="@dimen/h3" />
+
+
+            <ImageView
+                android:id="@+id/btnSagrarios"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="@dimen/space16"
+                android:src="@drawable/cecina"
+                tools:layout_editor_absoluteX="50dp"
+                tools:layout_editor_absoluteY="29dp" />
+
+
+            <TextView
+                android:id="@+id/lblClima"
+                style="@style/SemiBold"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="@dimen/space8"
+                android:gravity="center_horizontal"
+                android:text="TAMAL LOJANO"
+                android:textColor="@color/colorPink"
+                android:textSize="@dimen/h3" />
+
+
+            <ImageView
+                android:id="@+id/btnSagrarios"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="@dimen/space16"
+                android:src="@drawable/tamal"
+                tools:layout_editor_absoluteX="50dp"
+                tools:layout_editor_absoluteY="29dp" />
+
+
+            <TextView
+                android:id="@+id/lblClima"
+                style="@style/SemiBold"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="@dimen/space8"
+                android:gravity="center_horizontal"
+                android:text="HUMITAS"
+                android:textColor="@color/colorPink"
+                android:textSize="@dimen/h3" />
+
+
+            <ImageView
+                android:id="@+id/btnSagrarios"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="@dimen/space16"
+                android:src="@drawable/humita"
+                tools:layout_editor_absoluteX="50dp"
+                tools:layout_editor_absoluteY="29dp" />
+
+
+            <TextView
+                android:id="@+id/lblClima"
+                style="@style/SemiBold"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="@dimen/space8"
+                android:gravity="center_horizontal"
+                android:text="FRITADA"
+                android:textColor="@color/colorPink"
+                android:textSize="@dimen/h3" />
+
+
+            <ImageView
+                android:id="@+id/btnSagrarios"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="@dimen/space16"
+                android:src="@drawable/fritada"
+                tools:layout_editor_absoluteX="50dp"
+                tools:layout_editor_absoluteY="29dp" />
+
+
+            <TextView
+                android:id="@+id/lblClima"
+                style="@style/SemiBold"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="@dimen/space8"
+                android:gravity="center_horizontal"
+                android:text=""
+                android:textColor="@color/colorPink"
+                android:textSize="@dimen/h3" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical"
+    tools:context=".VistaVirtual.Lista_Virtual">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:layout_marginTop="@dimen/space56"
+        android:src="@drawable/catedral"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="29dp"
+        android:text="Catedral"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:onClick="Catedral"
+
+        />
+
+    <TextView
+        style="@style/SemiBold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="CATEDRAL"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextDark"
+        android:textSize="@dimen/h3" />
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:layout_marginTop="@dimen/space56"
+        android:src="@drawable/puerta1"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="29dp"
+        android:text="Puerta"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:onClick="PuertaCiudad"
+
+        />
+
+    <TextView
+        style="@style/SemiBold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Puerta de la ciudad"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextDark"
+        android:textSize="@dimen/h3" />
+
+
+
+</LinearLayout>

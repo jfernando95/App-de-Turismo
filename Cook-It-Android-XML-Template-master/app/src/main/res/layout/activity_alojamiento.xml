@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/fondo"
+    tools:openDrawer="start">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/btnHome"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:background="@drawable/home"
+                />
+
+
+
+
+            <ImageView
+                android:id="@+id/btnSagrarios"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/space16"
+                android:layout_height="200dp"
+                android:src="@drawable/cardenal"
+                tools:layout_editor_absoluteX="50dp"
+                tools:layout_editor_absoluteY="29dp" />
+
+
+            <TextView
+                android:id="@+id/lblclima"
+                style="@style/SemiBold"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:gravity="center_horizontal"
+                android:text="El Cardenal Hotel
+                \n
+                \n
+El Cardenal Hotel ofrece alojamiento en Loja. El establecimiento alberga un bar y un restaurante de cocina americana. El establecimiento alberga un jardín. La atención de los señores. Son personas muy amables y están predispuestos a ayudar! Es la segunda vez que voy y como siempre todo perfecto!
+\n
+\n
+Precio medio/noche: US$21"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorTextDark"
+                android:textSize="@dimen/h3" />
+
+
+            <ImageView
+                android:id="@+id/btnSagrarios"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="@dimen/space8"
+                android:src="@drawable/royal"
+                tools:layout_editor_absoluteX="50dp"
+                tools:layout_editor_absoluteY="29dp" />
+
+
+            <TextView
+                android:id="@+id/lblDescripcion"
+                style="@style/SemiBold"
+                android:layout_width="match_parent"
+                android:layout_height="297dp"
+                android:gravity="center_horizontal"
+                android:text="Romar Royal Hotel
+                \n
+                \n
+El Romar Royal Hotel se encuentra en Loja y dispone de jardín, bar y WiFi gratuita. La recepción está abierta las 24 horas. Además, el establecimiento alberga un restaurante. La ubicación, la decoración, la habitación tenía de todo plancha para el cabello, secador, báscula, caja de seguridad, escritorio, plancha y tabla de planchar, etc y lo más encantador es que todas las noches te dejan un detalle en la habitación, un postre. Un excelente hotel, excelentes personas.
+\n
+\n
+Precio medio/noche: US$65,57"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorTextDark"
+                android:textSize="@dimen/h3" />
+
+
+            <ImageView
+                android:id="@+id/btnSagrarios"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/pucara"
+                android:layout_marginTop="@dimen/space8"
+                tools:layout_editor_absoluteX="50dp"
+                tools:layout_editor_absoluteY="29dp" />
+
+
+            <TextView
+                android:id="@+id/lblDescripcion"
+                style="@style/SemiBold"
+                android:layout_width="match_parent"
+                android:layout_height="256dp"
+                android:layout_marginTop="@dimen/space8"
+
+                android:gravity="center_horizontal"
+                android:text="Hostal Pucará
+\n
+\n
+El Hostal Pucará se encuentra en Loja y ofrece alojamiento de 3 estrellas con salón compartido. Este hotel de 3 estrellas cuenta con WiFi gratuita y recepción 24 horas. Excelente espacio y ubicaciòn, tambien muy buena atencion de los empleados y muy amplias y bonitas las Instalaciones. superRecomendado!, ademàs muy cerca al centro y lugares para Visitar.
+\n
+\n
+Precio medio/noche: US$12"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorTextDark"
+                android:textSize="@dimen/h3" />
+
+
+            <ImageView
+                android:id="@+id/btnSagrarios"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="@dimen/space8"
+                android:src="@drawable/libertador"
+                tools:layout_editor_absoluteX="50dp"
+                tools:layout_editor_absoluteY="29dp" />
+
+
+            <TextView
+                android:id="@+id/lblDescripcion"
+                style="@style/SemiBold"
+                android:layout_width="match_parent"
+                android:layout_height="172dp"
+                android:layout_marginTop="@dimen/space8"
+
+                android:gravity="center_horizontal"
+                android:text="Hotel Libertador
+\n
+\n
+El Hotel Libertador se encuentra a solo 100 metros de la plaza central de Loja y ofrece piscina cubierta y restaurante. Hay conexión WiFi gratuita. Buena atención, ambientes limpio
+\n
+\n
+Precio medio/noche: US$40,98"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorTextDark"
+                android:textSize="@dimen/h3" />
+
+
+            <TextView
+                android:id="@+id/lblDescripcion"
+                style="@style/SemiBold"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginTop="@dimen/space8"
+
+                android:gravity="center_horizontal"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="@color/colorTextDark"
+                android:textSize="@dimen/h3" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

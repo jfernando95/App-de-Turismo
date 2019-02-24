@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/space24"
+    android:paddingLeft="@dimen/space16"
+    android:paddingRight="@dimen/space16"
+    android:paddingBottom="@dimen/space24">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/pato"
+       />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/space8"
+        android:text="PATRICIO BENITEZ"
+        android:textAppearance="@style/SemiBold"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/h3" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ESTUDIANTE DE LA UNL"
+        android:textSize="@dimen/h3"
+        android:textColor="@android:color/white"
+        android:textAppearance="@style/Light"/>
+
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image1"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/fercho"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/space8"
+        android:text="FERNANDO ORTEGA"
+        android:textAppearance="@style/SemiBold"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/h3" />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ESTUDIANTE DE LA UNL"
+        android:textSize="@dimen/h3"
+        android:textColor="@android:color/white"
+        android:textAppearance="@style/Light"/>
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image2"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/paul"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/space8"
+        android:text="PAUL PASACA"
+        android:textAppearance="@style/SemiBold"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/h3" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ESTUDIANTE DE LA UNL"
+        android:textSize="@dimen/h3"
+        android:textColor="@android:color/white"
+        android:textAppearance="@style/Light"/>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.gjiazhe:PanoramaImageView-1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/PanoramaImageView-1.0.aar/e50d4bd846a0e2b283bb76353d732c2e/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/PanoramaImageView-1.0.aar/e50d4bd846a0e2b283bb76353d732c2e/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gjiazhe/PanoramaImageView/1.0/fa3097be67be08d1eb4877bd327c08f41db373ca/PanoramaImageView-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/fondo"
+    tools:openDrawer="start">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/btnHome"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:background="@drawable/home"
+                />
+
+
+            <ImageView
+                android:id="@+id/btnSagrarios"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/space16"
+                android:layout_height="200dp"
+                android:src="@drawable/abad"
+                tools:layout_editor_absoluteX="50dp"
+                tools:layout_editor_absoluteY="29dp" />
+
+
+            <TextView
+                android:id="@+id/lblclima"
+                style="@style/SemiBold"
+                android:layout_width="match_parent"
+                android:layout_height="112dp"
+                android:gravity="center_horizontal"
+                android:text="ABAD CASTILLO
+                \n
+JOSE A. EGUIGUREN 16-62 Y AV. UNIVERSITARIA
+TLF.: (593 7)2572603
+FAX: (593 7) 2570075"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorTextDark"
+                android:textSize="@dimen/h3" />
+
+
+            <ImageView
+                android:id="@+id/btnSagrarios"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/space8"
+                android:layout_height="200dp"
+                android:src="@drawable/alvarez"
+                tools:layout_editor_absoluteX="50dp"
+                tools:layout_editor_absoluteY="29dp" />
+
+
+            <TextView
+                android:id="@+id/lblDescripcion"
+                style="@style/SemiBold"
+                android:layout_width="match_parent"
+                android:layout_height="122dp"
+                android:gravity="center_horizontal"
+                android:text="ALVAREZ TRAVEL
+                \n
+COLON 14-41 ENTRE SUCRE Y BOLIVAR
+Tlf:(593 7)2581832
+Fax: (593 7) 2563392"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorTextDark"
+                android:textSize="@dimen/h3" />
+
+
+            <ImageView
+                android:id="@+id/btnSagrarios"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/aratinga"
+                android:layout_marginTop="@dimen/space8"
+                tools:layout_editor_absoluteX="50dp"
+                tools:layout_editor_absoluteY="29dp" />
+
+
+            <TextView
+                android:id="@+id/lblDescripcion"
+                style="@style/SemiBold"
+                android:layout_width="match_parent"
+                android:layout_height="109dp"
+                android:layout_marginTop="@dimen/space8"
+
+                android:gravity="center_horizontal"
+                android:text="ARATINGA AVENTURAS
+                \n
+LOURDES 14-80 ENTRE SUCRE Y BOLIVAR
+Fax:(593 7)2582434"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorTextDark"
+                android:textSize="@dimen/h3" />
+
+
+
+
+            <ImageView
+                android:id="@+id/btnSagrarios"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/atlantis"
+                android:layout_marginTop="@dimen/space8"
+                tools:layout_editor_absoluteX="50dp"
+                tools:layout_editor_absoluteY="29dp" />
+
+
+            <TextView
+                android:id="@+id/lblDescripcion"
+                style="@style/SemiBold"
+                android:layout_width="match_parent"
+                android:layout_height="122dp"
+                android:layout_marginTop="@dimen/space8"
+
+                android:gravity="center_horizontal"
+                android:text="ATLANTIS TRAVEL FEC
+                \n
+BERNARDO VALDIVIESO 06-76 ENTRE COLÓN Y JOSÉ ANTONIO EGUIGUREN
+TLF. : (593 7) 2584295
+FAX: (593 7) 2561645"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorTextDark"
+                android:textSize="@dimen/h3" />
+
+
+            <TextView
+                android:id="@+id/lblDescripcion"
+                style="@style/SemiBold"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:layout_marginTop="@dimen/space8"
+
+                android:gravity="center_horizontal"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="@color/colorTextDark"
+                android:textSize="@dimen/h3" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:layout_marginTop="@dimen/space56"
+
+
+
+
+    tools:openDrawer="start">
+
+
+
+    <LinearLayout
+        android:layout_width="185dp"
+        android:layout_height="445dp"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgParroquias"
+            android:layout_width="match_parent"
+            android:layout_height="102dp"
+            android:layout_marginTop="@dimen/space56"
+            android:src="@drawable/ciudad"
+            tools:layout_editor_absoluteX="42dp"
+            tools:layout_editor_absoluteY="29dp" />
+
+        <TextView
+            android:id="@+id/btnParroquias"
+            style="@style/SemiBold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="PARROQUIAS"
+            android:textAlignment="center"
+            android:textColor="@color/colorTextDark"
+            android:textSize="@dimen/h3" />
+        />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgEventos"
+            style="@style/SemiBold"
+            android:layout_width="match_parent"
+            android:layout_height="102dp"
+            android:layout_marginTop="@dimen/space56"
+            android:gravity="center_horizontal"
+
+            android:src="@drawable/eventos"
+            android:textColor="@color/colorTextDark"
+            android:textSize="@dimen/h3" />
+
+
+        <TextView
+            android:id="@+id/btnEventos"
+            style="@style/SemiBold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="EVENTOS"
+            android:textAlignment="center"
+            android:textColor="@color/colorTextDark"
+            android:textSize="@dimen/h3" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="194dp"
+        android:layout_height="445dp"
+        android:layout_marginTop="@dimen/space56"
+
+        android:orientation="vertical">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgPlanificacion"
+            android:layout_width="match_parent"
+            android:layout_height="102dp"
+            android:src="@drawable/planificacion"
+
+            tools:layout_editor_absoluteX="42dp"
+            tools:layout_editor_absoluteY="29dp" />
+
+        <TextView
+            android:id="@+id/btnPlanificacion"
+            style="@style/SemiBold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="PLANIFICACION"
+            android:textColor="@color/colorTextDark"
+            android:textSize="@dimen/h3" />
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgMultimedia"
+            android:layout_width="match_parent"
+            android:layout_height="102dp"
+            android:layout_marginTop="@dimen/space56"
+
+            android:src="@drawable/multimedia"
+            tools:layout_editor_absoluteX="42dp"
+            tools:layout_editor_absoluteY="29dp" />
+
+        <TextView
+            android:id="@+id/btnMultimedia"
+            style="@style/SemiBold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="MULTIMEDIA"
+            android:textColor="@color/colorTextDark" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

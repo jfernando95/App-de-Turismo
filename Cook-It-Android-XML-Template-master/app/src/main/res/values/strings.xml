@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Nortrip</string>
+    <string name="title_activity_main">Main</string>
+
+    <string name="ejemplo1">Ejemplo 1</string>
+    <string name="ejemplo2">Ejemplo 2</string>
+    <string name="action_settings">Ejemplo 3</string>
+    <string name="title_activity_navegacion">Nortrip</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps_alfareria_barrio_cera">Map</string>
+    <string name="title_activity_maps_chorrerade_sillipara">Map</string>
+    <string name="title_activity_maps_prueba">Map</string>
+    <string name="title_activity_maps_centrode_interpretacion_turistica">Map</string>
+    <string name="title_activity_maps_activityrutachuquiribamba">Map</string>
+    <string name="title_activity_maps_activityruta">Map</string>
+    <string name="title_activity_actividad_mapa_principal">Map</string>
+    <string name="title_activity_actividad_mapa_principal_gualel_cisne">Map</string>
+    <string name="title_activity_actividad_mapa_principal_taquil">Map</string>
+    <string name="title_activity_rutas_enlazadas">Map</string>
+    <string name="title_activity_rutas">Map</string>
+    <string name="title_activity_p">Map</string>
+    <string name="title_activity_mapa_rcuno">Map</string>
+    <string name="title_activity_mapa_rcdos">Map</string>
+    <string name="title_activity_as">Map</string>
+</resources>
